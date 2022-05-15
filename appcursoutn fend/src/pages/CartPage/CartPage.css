@@ -1,0 +1,34 @@
+.cartShopContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.listContainer{
+    display: flex;
+    justify-content: space-evenly;
+    height: 90px;
+    margin: 10px;
+    border: rgba(128, 128, 128, 0.616) solid 1px;
+    align-items: center;
+}
+.productContainer{
+    width: 80%;
+    border: rgba(128, 128, 128, 0.616) solid 1px;
+}
+.listContainer button{
+    width: 40px;
+    height: 35px;
+    border-radius: 10px;
+    border: rgba(0, 0, 0, 0.479) solid 1px;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.listContainer ul{
+    list-style: none;
+    font-size: 1rem;
+    margin-top: 15px;
+}
+.totalCarrito{
+    margin: 15px 0px 10px 17px;
+}

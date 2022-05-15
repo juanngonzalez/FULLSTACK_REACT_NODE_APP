@@ -1,0 +1,18 @@
+.formContainer{
+    padding: 50px;
+    width: 500px;
+    border: 1px solid rgba(121, 115, 115, 0.233);
+    margin-left: 20px
+}
+.fullContainer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+img{
+    width: 38rem;
+}
+.ubiContainer{
+    padding-left: 45px;
+    border-left: 1px solid rgba(73, 69, 69, 0.404);
+}

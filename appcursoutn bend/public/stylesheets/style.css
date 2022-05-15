@@ -1,0 +1,54 @@
+.indexContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px grey;
+  height: 200px;
+  margin: 30px;
+}
+
+.pseudoNavBar{
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  justify-content: space-between;
+  border-bottom: 1px rgba(128, 128, 128, 0.651) solid;
+  box-shadow: 0px 0px 20px 0px;
+  height: 90px;
+}
+
+.titleNav{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.pseudoNavBar h1{
+  font-size: 40px;
+  font-weight: 200;
+}
+
+.buttonLogin{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5px;
+}
+.titleNav a{
+  text-decoration: none;
+  color: black;
+}
+img{
+  height: 65px;
+  width: 83px;
+  padding-bottom: 10px;
+}
+.buttonLogin a{
+  border: solid 1px grey;
+}
+
+.loginBtn:hover{
+  background-color: rgba(0, 0, 0, 0.226);
+}

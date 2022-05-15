@@ -1,0 +1,12 @@
+.giftCardContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+}
+.giftCardContainer img{
+    border: rgba(73, 71, 71, 0.548) solid 1px;
+    border-radius: 8px;
+    box-shadow: -5px 5px 40px 5px rgb(109, 101, 101);
+}

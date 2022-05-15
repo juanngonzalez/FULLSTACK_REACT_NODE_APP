@@ -1,0 +1,13 @@
+.totalNewsContainer{
+    margin: 20px;
+}
+.totalNewsContainer h4{
+    margin: 0px 20px 10px 20px;
+}
+
+
+.newsContainer{
+    border: rgba(29, 28, 28, 0.603) solid 1px;
+    margin-top: 20px;
+    padding: 20px;
+}

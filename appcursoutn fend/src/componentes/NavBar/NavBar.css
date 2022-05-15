@@ -1,0 +1,132 @@
+.imagenNav{
+    width: 100px;
+    height: 65px;
+    margin-bottom: 10px;
+}
+.active{
+    background-color: rgba(0,0,0,.3);
+    transition: .4s;
+}
+.ingresar{
+    margin-right: 30px;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: rgba(255, 55, 55, 0.699);
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.contenedorNav{
+    height: 75px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #fff;
+    box-shadow: 5px 0 10px rgba(0, 0, 0,.6);
+    margin-bottom: 15px;
+}
+.rutasNav ul{
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+    position: relative;
+}
+.rutasNav ul li{
+    border-radius: 3px;
+    margin: 0 5px;
+}
+.rutasNav ul li a{
+    padding: 7px 13px;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+.rutasNav ul li:hover, .active{
+    background-color: rgba(0,0,0,.3);
+    transition: .4s;
+}
+.logoNav{
+    height: 75px;
+    margin-left: 10px;
+}
+.btnMenu{
+    margin-right: 30px;
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+}
+#otroModo.show{
+    top: 75px;
+}
+
+
+@media screen and (max-width: 952px){
+    .logoNav{
+        padding-left: 35px;
+    }
+    .rutasNav ul li a{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 858px) {
+    .rutasNav{
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        margin-left: 30px;
+        
+    }
+    .contenedorNav{
+        height: 75px;
+        
+        
+    }
+    .btnMenu{
+        display: inline-flex;
+        margin-right: 50px;
+        
+    }
+    .rutasNav ul{
+        position: fixed;
+        width: 130vw;
+        height: calc(80% - 75px);
+        background: #414141;
+        top: -100vh;
+        
+        text-align: center;
+        transition: all .4s;
+        flex-direction: column;
+        z-index: 900;
+        
+    }
+    .rutasNav ul li{
+        margin: 30px 0 0 50px;
+        line-height: 30px;
+       
+    }
+    .rutasNav ul li:hover{
+        background:none;
+    }
+    .rutasNav ul li a{
+        font-size: 20px;
+        color:#fff;
+        font-weight: bold;
+    }
+    .rutasNav ul li a:hover{
+        color: red;
+    }
+    .logoNav{
+        padding-left: 25px;
+    }   
+
+}
+@media screen and(max-width: 858px) and (orientation: landscape){
+    .rutasNav ul li{
+        margin: 5px 0 0 0;
+    }
+    .rutasNav ul{
+        overflow: scroll;
+        height: calc(100% - 75px);
+    }
+}

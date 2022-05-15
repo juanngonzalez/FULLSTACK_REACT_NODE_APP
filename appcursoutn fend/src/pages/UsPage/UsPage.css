@@ -1,0 +1,40 @@
+.aboutUsContainer{
+    margin: 15px;
+    border: solid rgba(116, 114, 114, 0.685) 1px;
+    font-size: 16px;
+    padding: 15px;
+}
+.photosContainer{
+    display: flex;
+    
+    justify-content: space-around;
+}
+.teamCards img{
+    width: 10rem;
+    border-radius: 25px;
+    
+}
+.teamCards{
+    text-align: center;
+    border: solid rgba(0, 0, 0, 0.342) 1px;
+    margin: 15px;
+    padding: 15px;
+    height: 320px;
+    border-radius: 25px;
+}
+.contactUsButton{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.contactUsButton button{
+    background-color: rgba(241, 23, 23, 0.616);
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    border: rgba(0, 0, 0, 0.596) solid 1px;
+    box-shadow: -5px 5px 15px 0px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 20px;
+}

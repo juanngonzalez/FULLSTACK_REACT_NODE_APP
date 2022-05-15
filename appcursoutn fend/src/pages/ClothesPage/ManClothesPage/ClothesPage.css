@@ -1,0 +1,19 @@
+.shoesCardContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(10rem,13rem));
+    justify-content: space-evenly;
+    margin: 20px 15px 15px 0px;
+}
+.cardShoes{
+    
+    margin-bottom:10px; 
+    border: solid rgba(0, 0, 0, 0.288) 1px;
+    box-shadow: 0px 10px 30px -10px;
+    border-radius: 4px;
+    width:max-content;
+    height: max-content;
+}
+.shoesCardContainer img{
+    width: 11,9rem;
+}
+
