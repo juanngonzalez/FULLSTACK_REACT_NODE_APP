@@ -1,20 +1,20 @@
 <div class="container" style="margin-top: 100px;display:flex;justify-content:center;">
   <div class="row" style="width:500px;">
     <form action="/admin/products/clothes/clothes_list/update" method="post" enctype="multipart/form-data" style="display:flex;flex-direction:column;justify-content:center;">
-      <input type="hidden" value="{{TW.id_product}}" name="id_product">
+      <input type="hidden" value="{{clothes.id_product}}" name="id_product">
       <div class="mb-3 row">
         <div class="col-sm-10">
-          <input type="text" class="form-control" name="name" value="{{TW.name}}">
+          <input type="text" class="form-control" name="name" value="{{clothes.name}}">
         </div>
       </div>
       <div class="mb-3 row">
         <div class="col-sm-10">
-          <input type="number" class="form-control" name="price" value="{{TW.price}}">
+          <input type="number" class="form-control" name="price" value="{{clothes.price}}">
         </div>
       </div>
       <div class="mb-3 row">
         <div class="col-sm-10">
-          <input type="number" class="form-control" name="stock" value="{{TW.stock}}">
+          <input type="number" class="form-control" name="stock" value="{{clothes.stock}}">
         </div>
       </div>
       <div class="mb-3 row">
@@ -25,7 +25,7 @@
            <label for=""><input type="checkbox" name="img_delete" id="img_delete" value="1">
            Eliminar imagen actual
            </label>
-           <input type="hidden" name="img_origin" value="{{TW.img_id}}">
+           <input type="hidden" name="img_origin" value="{{clothes.img_id}}">
         </div>
       </div>
 
