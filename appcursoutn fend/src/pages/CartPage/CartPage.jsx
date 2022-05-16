@@ -7,8 +7,12 @@ import './CartPage.css'
 function Cart() {
     
     const { cartList, vaciarCarrito, deleteItem, total, eliminarUno, sumarUno } = useCartContext()
+    const [letBuy, setBuy] = useState(false)
 
-
+    function buy() {
+        setBuy(true)
+    }
+    
     return (
         <>
             <h3>Carrito</h3>
@@ -31,6 +35,7 @@ function Cart() {
              
             }
             </div>
+            
             </div>
             
             {
@@ -39,8 +44,12 @@ function Cart() {
                 <div>
                     <p className="totalCarrito">{`Total: ${total()}`}</p>
                     <Button className="eliminar" onClick={vaciarCarrito}>Vaciar Carrito</Button>
+                    <Button className="agregar" onClick={buy} >Comprar</Button>
                     
                 </div>
+            }
+            {
+                letBuy === true ? <p>Compra realizada</p> : null
             }
             
         </>
